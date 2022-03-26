@@ -12,7 +12,7 @@ login_email = input("Enter your login email or phone number:")
 password = input("Enter you password:")
 searching_text = input("In which category you like to add people:")
 url = "https://www.linkedin.com/checkpoint/lg/sign-in-another-account"
-driver = webdriver.Chrome(r"C:\\Users\Arian_Gh\\Desktop\Docs\\Proj\\linkedin project\\chromedriver.exe",chrome_options=options)
+driver = webdriver.Chrome("chromedriver.exe",chrome_options=options)
 
 #Enter email and password:
 driver.get(url)
