@@ -10,7 +10,7 @@ pip install time
 pip install selenium
 ```    
 ## How to use  
-When you run the program it will ask you to first enter you email or phone number(inorder to logging in):  
+When you run the program(follow.py) it will ask you to first enter you email or phone number(inorder to logging in):  
 ``` 
 Enter your login email or phone number:your_linkedin_email_address_or_phone_number
 ```   
