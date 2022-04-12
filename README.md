@@ -24,4 +24,6 @@ Then you should enter the topic which you want to add people based on it:
 ``` 
 In which category you like to add people:your_desired_category
 ```   
-Thats it. And I should note that Linkedin has **maximum 100 connection per week limit** so dont worry if program stopped after adding too much people.
+Thats it. And I should note that Linkedin has **maximum 100 connection per week limit** so dont worry if program stopped after adding too much people.  
+## TODO  
+Overcome 100 connection per week limit.
