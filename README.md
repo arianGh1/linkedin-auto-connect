@@ -1,6 +1,8 @@
 # linkedin-auto-connect
 Use this project to do following people on linkedin and grow you connection easily   
-This projecet is codded in Python.
+This projecet is codded in Python. 
+**Attention**:  
+Run this code once a week.
 ## Prerequisites    
 1)Installed Python3 version on your syestem.  
 2)Inorder to use this project you need to first ensure that your chrome version is same as chrome driver version(99.0.4844.82) in the project.  
