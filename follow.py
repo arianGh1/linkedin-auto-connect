@@ -1,9 +1,39 @@
-import time
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-import warnings
-warnings.filterwarnings("ignore", category=DeprecationWarning) 
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
+import os
+try:
+    import time
+except:
+    install("time")
+    import time
+try:
+    import selenium
+    from selenium import webdriver
+    from selenium.webdriver.common.keys import Keys
+except:
+    install("selenium")
+    from selenium import webdriver
+    from selenium.webdriver.common.keys import Keys
+try:
+    import warnings
+
+except:
+    install("warnings")
+    import warnings
+try:
+    import subprocess
+except:
+    install("subprocess")
+    import subprocess
+try:
+    import sys
+except:
+    install("sys") 
+    import sys
+
+os.system('cls')
+warnings.filterwarnings("ignore", category=DeprecationWarning) 
 def follow():
     options = webdriver.ChromeOptions()
     options.add_argument('--ignore-certificate-errors')
