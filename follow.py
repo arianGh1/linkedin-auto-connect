@@ -13,6 +13,7 @@ try:
     from selenium.webdriver.common.keys import Keys
 except:
     install("selenium")
+    import selenium
     from selenium import webdriver
     from selenium.webdriver.common.keys import Keys
 try:
@@ -34,6 +35,7 @@ except:
 
 os.system('cls')
 warnings.filterwarnings("ignore", category=DeprecationWarning) 
+
 def follow():
     options = webdriver.ChromeOptions()
     options.add_argument('--ignore-certificate-errors')
@@ -53,7 +55,7 @@ def follow():
         return
 
     #Enter email and password:
-    #driver.get(url)
+    
     time.sleep(5)
     driver.find_element_by_xpath("//*[@id='username']").send_keys(login_email)
     time.sleep(2)
@@ -66,6 +68,8 @@ def follow():
     #Search the input text
     driver.find_element_by_xpath('//*[@id="global-nav-typeahead"]/input').send_keys(searching_text)
     driver.find_element_by_xpath('//*[@id="global-nav-typeahead"]/input').send_keys(Keys.ENTER)
+    
+    
 
 
     #Start following
