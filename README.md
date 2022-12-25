@@ -5,7 +5,7 @@ This project is codded in Python.
 Run this code once a week.
 ## Prerequisites    
 1)Installed Python3 version on your syestem.  
-2)Inorder to use this project you need to first ensure that your chrome version is same as chrome driver version(99.0.4844.82) in the project.  
+2)Inorder to use this project you need to first ensure that your chrome version is same as chromedriver.exe version(99.0.4844.82) in the project.  
   
 ## How to use  
 When you run the program(follow.py) it will ask you to first enter you email or phone number(inorder to logging in):  
