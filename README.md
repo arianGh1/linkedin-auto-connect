@@ -1,5 +1,5 @@
 # linkedin-auto-connect
-Use this project to do following people on linkedin and grow you connection easily   
+Use this project to do following people on linkedin and grow your connection up easily   
 This project is codded in Python.   
 **Attention**:  
 Run this code once a week.
